@@ -1,0 +1,10 @@
+<%
+f = taglib("/lib/form")
+f.block do
+  f.entry(:title => 'Commit Text',
+          :field => 'build_text',
+          :description => 'This must appear somewhere in the commit message as [ci TEXT] case insensitive for a build to progress.') do
+    f.textbox
+  end
+end
+%>
