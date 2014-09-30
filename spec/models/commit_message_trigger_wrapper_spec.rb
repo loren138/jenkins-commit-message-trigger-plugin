@@ -1,10 +1,10 @@
 require 'spec_helper'
 
-describe CiBuildWrapper do
+describe CommitMessageTriggerWrapper do
   let(:build)    { double(native: double(getChangeSet: changeset), result: 'SUCCESS') }
   let(:launcher) { double }
   let(:listener) { double }
-  let(:wrapper)  { CiBuildWrapper.new({'build_text' => ' *build* '}) }
+  let(:wrapper)  { CommitMessageTriggerWrapper.new({'build_text' => ' *build* '}) }
 
   describe '#setup' do
     context 'when changeset is empty' do

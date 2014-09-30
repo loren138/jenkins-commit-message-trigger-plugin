@@ -1,5 +1,5 @@
-class CiBuildWrapper < Jenkins::Tasks::BuildWrapper
-  display_name "Enable CI Build"
+class CommitMessageTriggerWrapper < Jenkins::Tasks::BuildWrapper
+  display_name "Enable Commit Message Trigger"
 
   attr_accessor :build_text
 
