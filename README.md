@@ -1,3 +1,7 @@
+# Archived/No Support Provided
+
+Feel free to fork this to continue any other development you'd like to do or use this as a start to other plugins
+
 # Jenkins Commit Message Trigger Plugin
 
 This plugin allows builds to be made only for certain text (`[ci KEYWORD]`) in the commit message.
